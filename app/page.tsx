@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const basePath = process.env.NODE_ENV === "production" ? "/gfbs3-portfolio-demo" : "";
+const basePath = process.env.NODE_ENV === "production" ? "/gfbs3-portfolio-demo-test" : "";
 
 export default function Home() {
   return (
@@ -44,7 +44,7 @@ export default function Home() {
             </h1>
           </div>
           <p className="text-lg md:text-xl text-cyan-100/70 max-w-2xl leading-relaxed font-light border-l-2 border-fuchsia-500/50 pl-6">
-            A beginner-friendly portfolio template that showcases your projects beautifully. Fork it, customize it, deploy it—no design skills required.
+            This is a beginner-friendly portfolio template from gitfolio that showcases your projects beautifully. I fork it, customize it, and deploy it—no design skills.
           </p>
           <div className="pt-8 flex gap-6">
             <Link 
