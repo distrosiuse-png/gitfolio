@@ -19,7 +19,7 @@ export default function Home() {
             href="/" 
             className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-400 hover:to-cyan-400 transition-all duration-300"
           >
-            GITFOLIO
+            Miguel on GITFOLIO
           </Link>
           <div className="flex gap-8 text-xs font-bold tracking-widest uppercase text-cyan-700/80">
             <Link href="#work" className="hover:text-cyan-400 hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">PROJECTS</Link>
@@ -71,11 +71,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Project 1 */}
             <ProjectCard 
-              title="PROJECT_ONE"
-              description="Your first amazing project goes here. Describe what problem it solves and the tech you used to build it."
+              title="GitFolio Test"
+              description="My first attemp to code."
               tags={["REACT", "NEXTJS", "TAILWIND"]}
               color="cyan"
-              href="#"
+              href="https://distrosiuse-png.github.io/gitfolio/"
             />
             {/* Project 2 */}
             <ProjectCard 
@@ -91,7 +91,7 @@ export default function Home() {
               description="Another project to highlight your skills. Share the impact or results of this work."
               tags={["TYPESCRIPT", "NODE", "EXPRESS"]}
               color="purple"
-              href="#"
+              href="https://distrosiuse-png.github.io/gitfolio/"
             />
             {/* Project 4 */}
             <ProjectCard 
@@ -127,7 +127,7 @@ export default function Home() {
           </div>
           <div className="md:col-span-8 space-y-8 text-cyan-100/80 leading-relaxed font-light">
             <p>
-              Every developer has a unique journey. Share yours here—whether you&apos;re self-taught, a bootcamp grad, or transitioning careers. <strong className="text-fuchsia-400 font-bold">Your story matters.</strong> Talk about what drives you to code and the impact you want to make.
+              Im not a DEVELOPER BUT I LIKE TOL EARN. <strong className="text-fuchsia-400 font-bold">Your story matters.</strong> Talk about what drives you to code and the impact you want to make.
             </p>
             <div className="p-6 bg-cyan-950/20 border border-cyan-500/20 rounded-sm relative overflow-hidden">
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-fuchsia-500 to-cyan-500" />
